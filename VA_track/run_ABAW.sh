@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python -u main-test.py --model=attention_seq --batch_size=16 --dataset=ABAW --audio_feature=vggish-o_800s_1000-FRA --text_feature=bert-o_800s_1000-FRA --video_feature=clip-vit-large-patch14-o_800s_1000-FRA --gpu=4 --feat_type=frm_align
+#CUDA_VISIBLE_DEVICES=4,5,6,7 python -u -m torch.distributed.launch --nproc_per_node=4 --master_port=29501 extract_vision_hf_img.py --dataset=ABAW --feature_level=FRAME --model_name=dino-vitb8

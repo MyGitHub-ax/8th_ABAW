@@ -1,0 +1,1 @@
+python /data/yanglongjiang/project/ABAW/toolkit/utils/functions.py func_split_audio_from_video_16k '/data/emotion-data/abaw/PreProcessed/Original/Videos' '/data/emotion-data/abaw/PreProcessed/Original/Audio'
